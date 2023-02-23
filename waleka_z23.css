@@ -1,0 +1,42 @@
+p#pogrubienie_waleka{
+	font-size: 31px;
+	color: 975DCE;	
+	font-weight: bold;
+	
+	
+}
+p#pochylona_waleka{
+	font-size: 36pt;
+	color: FBC16A;
+	font-style: italic;
+	
+}
+p#index_gorny_waleka{
+	font-size: 1,1cm;
+	color: AB8F1A;
+	font-variant: sup;
+	
+	
+}
+p#index_dolny_waleka{
+	font-size:1,3cm;
+	color: RGB(28,95,89);
+	font-variant: sub;
+	
+}
+p#mono_waleka{
+	font-size: 41px;
+	color: 2BDF6A;
+	
+	
+}
+p#powiekszenie_waleka{
+	color: RGB(40,25,61);
+	
+	
+}
+p#pomniejszenie_waleka{
+	color: RGB(79,64,22);
+	
+	
+}
