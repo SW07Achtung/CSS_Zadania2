@@ -1,0 +1,92 @@
+p#wiersz{
+    color: red;
+    font-size: 1cm;
+    text-align:right;
+    margin-right: 20px;
+}
+p#ak1{
+    color: blue;
+    text-align:right;
+    margin-right: 130px;
+}
+//szary
+
+p#zdanie1{
+    font-variant: small-caps;
+    font-family:serif;
+    font-weight:400;
+    font-size:xx-small;
+    line-height: 1.2cm;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    text-indent: 3cm;
+	text-align:right;
+
+}
+p#zdanie2{
+    text-decoration:overline;
+    font-family:serif;
+    font-weight: 600;
+    font-size: medium;
+    line-height: 1.2cm;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    text-indent: 3cm;
+    color: 2f4f4f;
+	text-align:right;
+}
+p#zdanie3{
+
+    font-style: italic;
+    font-family:serif;
+    font-weight:800;
+    text-transform: uppercase;
+    font-size:xx-large;
+    color: 778899;
+    line-height: 1.2cm;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    text-indent: 3cm;
+	text-align:right;
+}
+p#zdanie4{ 
+	font-family: sans-serif;
+	color: c71585;
+	text-decoration: line-through;
+	font-weight: 300;
+	font-size: small;
+	line-height: 18mm;
+    word-spacing: 13pt;
+    letter-spacing: 0.3ex;
+    text-indent: 15mm;
+	text-align:center;
+}
+p#zdanie5{
+	font-family: sans-serif;
+	color: ff69b4;
+	font-variant: small-caps;
+	font-weight: 600;
+	font-size: large;
+	line-height: 18mm;
+    word-spacing: 13pt;
+    letter-spacing: 0.3ex;
+    text-indent: 15mm;
+	text-align:center;
+}
+p#zdanie6{
+	font-family: sans-serif;
+	color: ff1493;
+	font-style: oblique;
+	font-weight: 800;
+	text-transform: capitalize;
+	font-size: x-large;
+	line-height: 18mm;
+    word-spacing: 13pt;
+    letter-spacing: 0.3ex;
+    text-indent: 15mm;
+	text-align:center;
+}
+hr{
+    border-top: 3px dashed black;
+
+}

@@ -1,0 +1,190 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<textarea cols="120" rows="40">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Właściwości czcionek-Wałęka</title>
+    <link href="czcionki_waleka.css" rel="stylesheet" type="text/CSS">
+</head>
+<body>
+  <p id="wiersz">Szymon Wałęka 1P, układ 2</p>
+  <p id="ak1">Akapit 1-do prawej</p>
+  <p>rodzina czcionki 1, czyli--><b>serif</b></p>
+  <p>kolory tekstu 6, czyli--><b>odcienie szarego</b></p>
+  <p>dekoracja tekstu 3, jedno zdanie w tekście, czyli--><b>Nadkreślić</b></p>
+  <p>styl czcionek 2, jedno zdanie w tekście, czyli--><b>italic</b> </p>
+  <p>wariant czcionki-->kapitaliki,jedno zdanie w tekście</p>
+  grubości czcionek:<ul type="disc">
+<li>jedno zdanie 400</li>
+<li>jedno zdanie 600</li>
+<li>jedno zdanie 800</li>
+</ul>
+<br>
+rozmiary czcionek:<ul type="disc">
+  <li>jedno zdanie w tekście 1 czyli xx-small </li>
+  <li>jedno zdanie w tekście 4 czyli medium</li>
+  <li>jedno zdanie w tekście 7 czyli xx-large</li>
+</ul>
+<br>
+transformacja tekstu jedno zdanie ma być wyświetlane dużymi literami
+<br>
+<br>
+wcięcia tekstu: 3cm
+odstepy międzcy wierszami: 1.2cm<br>
+odstepy międzcy wyrazami: 9px<br>
+odstepy międzcy literami: 3ex<br>
+<hr>
+<br>
+<hr>
+<h1>Realizacja akapitu 1</h1>
+
+  <h6>Zdanie 1-->kapitaliki, grubość czcionki 400, wielkość czcionek xx-small</h6>
+ <p id="zdanie1">Informatyka to nauka ścisła oraz techniczna zajmująca się przetwarzaniem informacji</p>
+ <h6>Zdanie 2-->grubość czcionki 600, wielkość czcionek medium, dekoracja tekstu nadkreślenie</h6>
+ <p id="zdanie2">Język programowania to zbiór zasad określających, kiedy ciąg symboli tworzy program komputerowy oraz jakie obliczenia opisuje</p>
+ <h6>Zdanie 3-->transformacja liter na duże, styl czcionek italic, grubośc czcionki 800, wielkość czcionki xx-large</h6>
+ <p id="zdanie3">Komputer to maszyna przeznaczona do przetwarzania informacji, które da się zapisać w formie ciągu cyfr albo sygnału ciągłego</p>
+<hr>
+<br>
+<hr>
+<p id="ak1">Akapit 2- centrowany</p>
+<p>rodzina czcionki 2, czyli--><b>sans-serif</b></p>
+  <p>kolory tekstu 7, czyli--><b>odcienie różowego</b></p>
+  <p>dekoracja tekstu 2, jedno zdanie w tekście, czyli--><b>Przekreślić</b></p>
+  <p>styl czcionek 3, jedno zdanie w tekście, czyli--><b>oblique</b> </p>
+  <p>wariant czcionki-->kapitaliki,jedno zdanie w tekście</p>
+  grubości czcionek:<ul type="disc">
+<li>jedno zdanie 300</li>
+<li>jedno zdanie 600</li>
+<li>jedno zdanie 800</li>
+</ul>
+<br>
+rozmiary czcionek:<ul type="disc">
+  <li>jedno zdanie w tekście 3 czyli small </li>
+  <li>jedno zdanie w tekście 5 czyli large</li>
+  <li>jedno zdanie w tekście 6 czyli x-large</li>
+</ul>
+<br>
+transformacja tekstu jedno zdanie ma być wyświetlane dużymi literami
+<br>
+<br>
+wcięcia tekstu: 15mm
+odstepy międzcy wierszami: 18mm<br>
+odstepy międzcy wyrazami: 13pt<br>
+odstepy międzcy literami: 0.3cm<br>
+<hr>
+<br>
+<hr>
+<h1>Realizacja akapitu 2</h1>
+<h6>Zdanie 4-->kapitaliki, grubość czcionki 300, wielkość czcionek small, dekoracja tekstu-->przekreślenie</h6>
+<p id="zdanie4">Procesor jest elektroniczną jednostką przetwarzającą – układem odpowiedzialnym za sterowanie innymi układami lub elementami</p>
+<h6>Zdanie 5--> grubość czcionki 600, wielkość czcionek large, kapitaliki</h6>
+<p id="zdanie5">Karta graficzna – karta rozszerzeń komputera odpowiedzialna za renderowanie grafiki i jej konwersję na sygnał zrozumiały dla wyświetlacza.</p>
+<h6>Zdanie 6-->grubość czcionki 800, wielkość czcionek x-large, styl czcionki oblique, transformacja tesktu-->Pierwsza litera duża</h6>
+<p id="zdanie6">Płyta główna to płyta na której osadza się wszystkie inne komponenty w komputerze</p>
+
+
+</body>
+</html>
+
+p#wiersz{
+    color: red;
+    font-size: 1cm;
+    text-align:right;
+    margin-right: 20px;
+}
+p#ak1{
+    color: blue;
+    text-align:right;
+    margin-right: 130px;
+}
+//szary
+
+p#zdanie1{
+    font-variant: small-caps;
+    font-family:serif;
+    font-weight:400;
+    font-size:xx-small;
+    line-height: 1.2cm;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    text-indent: 3cm;
+	text-align:right;
+
+}
+p#zdanie2{
+    text-decoration:overline;
+    font-family:serif;
+    font-weight: 600;
+    font-size: medium;
+    line-height: 1.2cm;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    text-indent: 3cm;
+    color: 2f4f4f;
+	text-align:right;
+}
+p#zdanie3{
+
+    font-style: italic;
+    font-family:serif;
+    font-weight:800;
+    text-transform: uppercase;
+    font-size:xx-large;
+    color: 778899;
+    line-height: 1.2cm;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    text-indent: 3cm;
+	text-align:right;
+}
+p#zdanie4{ 
+	font-family: sans-serif;
+	color: c71585;
+	text-decoration: line-through;
+	font-weight: 300;
+	font-size: small;
+	line-height: 18mm;
+    word-spacing: 13pt;
+    letter-spacing: 0.3ex;
+    text-indent: 15mm;
+	text-align:center;
+}
+p#zdanie5{
+	font-family: sans-serif;
+	color: ff69b4;
+	font-variant: small-caps;
+	font-weight: 600;
+	font-size: large;
+	line-height: 18mm;
+    word-spacing: 13pt;
+    letter-spacing: 0.3ex;
+    text-indent: 15mm;
+	text-align:center;
+}
+p#zdanie6{
+	font-family: sans-serif;
+	color: ff1493;
+	font-style: oblique;
+	font-weight: 800;
+	text-transform: capitalize;
+	font-size: x-large;
+	line-height: 18mm;
+    word-spacing: 13pt;
+    letter-spacing: 0.3ex;
+    text-indent: 15mm;
+	text-align:center;
+}
+hr{
+    border-top: 3px dashed black;
+
+}
+
+
+</textarea>
+</body>
+</html>
