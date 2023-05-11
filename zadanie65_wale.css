@@ -1,0 +1,50 @@
+body{
+background-color:silver;
+}
+
+p:first-child{
+	font-size:7mm;
+	font-style:italic;
+}
+
+p{
+	font-size:11pt;
+	
+}
+
+
+div#pierwszy_waleka{
+	width:808pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(0,200,255);
+	border: solid 5px rgb(0,0,255) ;
+	border-top-right-radius: 12px;
+	border-top-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border-bottom-left-radius:13px
+}
+
+
+div#drugi_waleka{
+	width:1008pt;
+	background-color:rgb(255,200,200);
+	border: solid 3px rgb(0,0,0) ;
+	border-top-right-radius: 13px;
+	border-top-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border-bottom-left-radius:13px
+}
+
+
+div#trzeci_waleka{
+	width:1208pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(0,255,125);
+	border: solid 7px rgb(255,0,255);
+	border-top-right-radius: 13px;
+	border-top-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border-bottom-left-radius:13px
+}

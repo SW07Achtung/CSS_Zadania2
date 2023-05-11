@@ -1,0 +1,8 @@
+div#blok1_waleka {background-color: 00ff00;width:627px;}
+div#blok2_waleka {background-color: 00ff00;width:627px;}
+div#blok3_waleka {background-color: 00ff00;width:627px;}
+div#blok1_waleka:hover {background-color: orange;font-size:20mm;}
+div#blok2_waleka:hover {background-color: light-green;font-size:20mm;}
+div#blok3_waleka:hover {background-color: gold;font-size:20mm;}
+/*Szymon Wałęka
+hover-powoduje format bloku po najechaniu*/
